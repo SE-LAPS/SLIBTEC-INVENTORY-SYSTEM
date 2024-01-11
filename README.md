@@ -1,7 +1,6 @@
-<h2>Sri Lanka Institute of Biotechnology
+<h2>💠Sri Lanka Institute of Biotechnology
 Inventory Management System
-Project Report</h2>
-
+Project 💠</h2>
 <br><br>
 <h4>Table of Contents</h4>
 
@@ -10,21 +9,20 @@ Project Report</h2>
 2.1	User Requirements:	3
 2.2	Introduction to the Proposed System	3
 2.3	Technologies Used	4
-
 <br><br>
-<h6>1.	Problem Description</h6>
+<h6>1.	💥Problem Description</h6>
 SLIBTEC, a prominent research institute, currently relies on a manual system for managing its diverse inventory, which includes both consumables and chemicals essential for various research activities. The current system involves paperwork and excel sheets, making it prone to errors, delays, and inefficiencies. As the institute continues to grow and handle an increasing volume of supplies, it has become evident that there is a pressing need for a more streamlined and automated Inventory Management System.
 <br><br>
 <h6>2.	Requirement Gathering</h6>
 
-2.1	User Requirements:
+2.1	💥User Requirements:
 
 •	User Authentication: Users (admin, manager, staff) must be able to log in securely with unique credentials.
 •	User Roles and Permissions: The system should distinguish between admin, manager, and staff roles, each with specific permissions.
 •	User Interface: The system should have an intuitive and user-friendly interface to facilitate easy navigation and use.
 •	Notifications: Users should receive timely notifications about items nearing expiration or depletion, item requests and item pre orders. 
 
-2.2	Introduction to the Proposed System
+2.2	💥Introduction to the Proposed System
 To address the shortcomings of the current manual inventory management system, the proposed Inventory Management System aims to achieve the following objectives:
 •	Separate Login Access – There will be three separate logins for the Administration, Procurement Manager, and the employees with three different access levels.
 •	Automation of Transactions – Streamline the recording of inventory transactions, from supply receipt to distribution invoice, through this automated system.
@@ -40,8 +38,8 @@ To address the shortcomings of the current manual inventory management system, t
 •	Notifications about Inventory Pre Orders – The admin and procurement manager will receive email notifications about pre orders, when a particular item’s stock reduces up to a certain amount.
 •	Notifications about Expiry Date of Inventory – The admin and procurement manager will receive email notifications when an inventory item is near to its expiry date.
 
-2.3	Technologies Used
+2.3	💥Technologies Used
 
-•	Frontend – HTML, CSS, and JavaScript
-•	Backend – PHP
+•	Frontend – HTML, CSS, and JavaScript<br>
+•	Backend – PHP<br>
 •	Database – XAMPP (SQL Database)
