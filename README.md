@@ -1,7 +1,7 @@
 <h2>💠Sri Lanka Institute of Biotechnology
 Inventory Management System
 Project 💠</h2>
-<br><br>
+<br>
 <h4>Table of Contents</h4>
 
 1.	Problem Description	3
@@ -17,25 +17,25 @@ SLIBTEC, a prominent research institute, currently relies on a manual system for
 
 2.1	💥User Requirements:
 
-•	User Authentication: Users (admin, manager, staff) must be able to log in securely with unique credentials.
-•	User Roles and Permissions: The system should distinguish between admin, manager, and staff roles, each with specific permissions.
-•	User Interface: The system should have an intuitive and user-friendly interface to facilitate easy navigation and use.
+•	User Authentication: Users (admin, manager, staff) must be able to log in securely with unique credentials.<br>
+•	User Roles and Permissions: The system should distinguish between admin, manager, and staff roles, each with specific permissions.<br>
+•	User Interface: The system should have an intuitive and user-friendly interface to facilitate easy navigation and use.<br>
 •	Notifications: Users should receive timely notifications about items nearing expiration or depletion, item requests and item pre orders. 
 
 2.2	💥Introduction to the Proposed System
-To address the shortcomings of the current manual inventory management system, the proposed Inventory Management System aims to achieve the following objectives:
-•	Separate Login Access – There will be three separate logins for the Administration, Procurement Manager, and the employees with three different access levels.
-•	Automation of Transactions – Streamline the recording of inventory transactions, from supply receipt to distribution invoice, through this automated system.
-•	Convenient and Automated Inventory Management – Users of the system can view all the available inventory items, easily add inventory items to the system, update existing inventory items (including name, location, available quantity, unit price) and delete them.
-•	Categorization of Inventory – They available list of inventories are categorized into two categories as Consumables and Chemicals for easy management.
-•	Convenient Inventory Request Process – The employees can easily login to the employee dashboard and place requests for inventory. The procurement manager can also place inventory requests on behalf of the employees.
-•	Convenient Accept of Request – The procurement manager can review the inventory requests, accept those requests, and issue the relevant inventory items.
-•	Convenient Issue of Invoices – The procurement manager can print invoices of the inventory items issued as well as save them as pdf documents. 
-•	Report of the Inventory Details – The administration and the procurement manager can get a detailed report of the inventory available, and the details of the inventory issued.
-•	Generation of a QR Code – Admin and procurement manager can easily generate a QR code for each item available in the system, just by one click. This QR code contains all the details about the relevant item. 
-•	Report of the Inventory Requests – The admin and procurement manager can review the details of all the inventory requests done through the system. They can check to whom the items have been issued, in which quantities, and the date and time they were issued to the relevant person.
-•	Notifications about Inventory Requests – The admin, procurement manager and the employee who requested an inventory item, will receive an email notification containing the details of the request.
-•	Notifications about Inventory Pre Orders – The admin and procurement manager will receive email notifications about pre orders, when a particular item’s stock reduces up to a certain amount.
+To address the shortcomings of the current manual inventory management system, the proposed Inventory Management System aims to achieve the following objectives:<br>
+•	Separate Login Access – There will be three separate logins for the Administration, Procurement Manager, and the employees with three different access levels.<br>
+•	Automation of Transactions – Streamline the recording of inventory transactions, from supply receipt to distribution invoice, through this automated system.<br>
+•	Convenient and Automated Inventory Management – Users of the system can view all the available inventory items, easily add inventory items to the system, update existing inventory items (including name, location, available quantity, unit price) and delete them.<br>
+•	Categorization of Inventory – They available list of inventories are categorized into two categories as Consumables and Chemicals for easy management.<br>
+•	Convenient Inventory Request Process – The employees can easily login to the employee dashboard and place requests for inventory. The procurement manager can also place inventory requests on behalf of the employees.<br>
+•	Convenient Accept of Request – The procurement manager can review the inventory requests, accept those requests, and issue the relevant inventory items.<br>
+•	Convenient Issue of Invoices – The procurement manager can print invoices of the inventory items issued as well as save them as pdf documents.<br> 
+•	Report of the Inventory Details – The administration and the procurement manager can get a detailed report of the inventory available, and the details of the inventory issued.<br>
+•	Generation of a QR Code – Admin and procurement manager can easily generate a QR code for each item available in the system, just by one click. This QR code contains all the details about the relevant item.<,br>
+•	Report of the Inventory Requests – The admin and procurement manager can review the details of all the inventory requests done through the system. They can check to whom the items have been issued, in which quantities, and the date and time they were issued to the relevant person.<br>
+•	Notifications about Inventory Requests – The admin, procurement manager and the employee who requested an inventory item, will receive an email notification containing the details of the request.<br>
+•	Notifications about Inventory Pre Orders – The admin and procurement manager will receive email notifications about pre orders, when a particular item’s stock reduces up to a certain amount.<br>
 •	Notifications about Expiry Date of Inventory – The admin and procurement manager will receive email notifications when an inventory item is near to its expiry date.
 
 2.3	💥Technologies Used
