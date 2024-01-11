@@ -23,6 +23,8 @@ SLIBTEC, a prominent research institute, currently relies on a manual system for
 •	Notifications: Users should receive timely notifications about items nearing expiration or depletion, item requests and item pre orders. 
 
 2.2	💥Introduction to the Proposed System
+
+
 To address the shortcomings of the current manual inventory management system, the proposed Inventory Management System aims to achieve the following objectives:<br>
 •	Separate Login Access – There will be three separate logins for the Administration, Procurement Manager, and the employees with three different access levels.<br>
 •	Automation of Transactions – Streamline the recording of inventory transactions, from supply receipt to distribution invoice, through this automated system.<br>
