@@ -1,5 +1,55 @@
 {
+    "name": "sanjabteam/verify",
+    "description": "Verify users mobile number by one time password.",
+    "keywords": [
+        "sanjabteam",
+        "verify"
+    ],
+    "homepage": "https://github.com/sanjabteam/verify",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "amir alizadeh",
+            "email": "amiralizadeh9480@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "spomky-labs/otphp": "10.0.3"
+        "php": "^7.3|^8",
+        "illuminate/support": "^6|^7|^8|^9|^10"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*|^4|^5.1|^7.4|^8.0.4",
+        "phpunit/phpunit": "^8.4|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SanjabVerify\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SanjabVerify\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true,
+        "bin-compat": "full"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SanjabVerify\\VerifyServiceProvider"
+            ],
+            "aliases": {
+                "Verify": "SanjabVerify\\Support\\Facades\\Verify"
+            }
+        }
     }
 }
