@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'sent_successfully' => 'Verification code was sent successfully.',
-    'send_failed' => 'Sending verification code failed. Please try later.',
-    'resend_wait' => 'You have requested for verification code recently. please retry in :seconds seconds.',
-    'too_many_requests' => 'You requested too many verification codes. please retry in next hour.',
-    'code_expired' => 'Your code has expired. Please request another verification code.',
-    'verified_successfully' => 'Your code verified successfully.',
-    'code_is_not_yours' => 'This code is not your\'s. Please request another verification code.',
-    'code_is_wrong' => 'Code is wrong.',
-    'code_attempt_limited' => 'You attempted to verify code more than :count times. Please request another verification code.',
+    'sent_successfully' => 'کد تایید برای شما با موفقیت ارسال شد.',
+    'send_failed' => 'ارسال کد تایید با شکست مواجه شد لطفا کمی بعد تلاش کنید.',
+    'resend_wait' => 'شما اخیرا درخواست کد داده اید. لطفاً :seconds ثانیه دیگه صبر کنید.',
+    'too_many_requests' => 'شما تعداد زیادی درخواست کد داشته اید. لطفاً ساعتی بعد تلاش کنید.',
+    'code_expired' => 'کد شما منقضی شده است. لطفاً مجددا درخواست کد بدهید.',
+    'verified_successfully' => 'کد شما با موفقیت تایید شد.',
+    'code_is_not_yours' => 'این کد تایید به شما تعلق ندارد. لطفا مجدداً درخواست کد بدهید.',
+    'code_is_wrong' => 'کد وارد شده اشتباه است.',
+    'code_attempt_limited' => 'شما بیش از :count بار درخواست بررسی کد داده اید. لطفا مجددا درخواست کد بدهید.',
 ];
